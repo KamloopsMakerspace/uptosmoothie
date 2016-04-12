@@ -26,11 +26,17 @@ Services that are running on the pi: ssh-daemon, octoprint (port 80 through hapr
  * Wires are doubled up: yellow+orange and blue+green
  * Extruder fan: black and white wires
  * Thermistor is 110 ohm at 23 degree celcius
- * Thermistor on purple and gray wires
+ * Thermistor on Red and Black wires
+ * Heater is on Green and White wires
 
-### Heated bed
+### Heated bed 
  * Thermistor resistance:
  * Thermistor wires:
 
 ### Limit switches
-There are 3 optical limit switches on the UP printer, one for each axis.
+There are 3 optical limit switches on the UP printer, one for each axis. A non-contact sensor has been added as a homing switch for the Z axis, but you need to home Z before X-Y to ensure the print bed is underneath the extruder. 
+
+### New Modifications
+ * Machined aluminum mounting bracket for the extruder
+ * Added disconnects for the Heater and Thermistor
+ * Crash spring to cushion the bed when the unit powers off
